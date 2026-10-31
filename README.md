@@ -8,7 +8,7 @@
 - 目标：跑通一个双均线策略的回测，输出夏普、最大回撤
 
 ## 功能（计划）
-- [ ] 数据获取（akshare）
+- [√] 数据获取（akshare）
 - [ ] 数据清洗与存储（SQLite）
 - [ ] 技术指标（MA/RSI/MACD）
 - [ ] 双均线策略回测
@@ -24,4 +24,7 @@ Python 3.11+、pandas、numpy、matplotlib、akshare、SQLite、FastAPI
 - `notebooks/`：实验
 
 ## 快速开始
-（待补）
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+python main.py
